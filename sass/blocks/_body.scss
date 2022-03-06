@@ -1,0 +1,13 @@
+body{
+  background-image: url(../../images/page.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+  @media only screen and(max-width:428px){
+    body{
+      background-image: url("../../images/page.jpg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}

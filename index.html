@@ -4,9 +4,156 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Soffit</title>
 </head>
 <body>
-  
+  <header class="site-header header">
+    <div class="container">
+      <div class="header__box">
+        <a class="header__logo-link" href="./index.html">
+          <img class="header__logo" src="./images/logo.svg" alt="Soffit logo">
+          <img class="header__logo-media" src="./images/media.svg" alt="Soffit logo">
+        </a>
+        
+        <button class="header__btn">
+          <svg width="20" height="18" xmlns="http://www.w3.org/2000/svg"><path d="M19.75 1.415c0-.598-.485-1.083-1.083-1.083H1.333a1.083 1.083 0 0 0 0 2.167h17.334c.598 0 1.083-.485 1.083-1.084Zm0 7.584c0-.599-.485-1.084-1.083-1.084H7.833a1.083 1.083 0 0 0 0 2.167h10.834c.598 0 1.083-.485 1.083-1.083Zm0 7.583c0-.598-.485-1.083-1.083-1.083H1.333a1.083 1.083 0 1 0 0 2.166h17.334c.598 0 1.083-.485 1.083-1.083Z" fill="#fff"/></svg>
+        </button>
+      
+      <div class="header__subbox">
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#">
+                Services
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                Portfolio
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">
+                About us
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+        <div class="header__lean">
+          <a class="header__lean-link"  href="#">
+            Uz
+          </a>
+          <a class="header__lean-link"  href="#">
+            Ru
+          </a>
+          <a class="header__lean-link"  href="#">
+            En
+          </a>
+        </div>
+      </div>
+    </div>
+    <hr class="header__line">
+    <hr class="header__subline">
+  </div>
+</header>
+
+<main class="site-main">
+  <section class="hero">
+    <div class="container">
+      <div class="hero__box">
+        <div class="hero__subbox">
+          <h2 class="hero__title">
+            Ux & Ui design
+          </h2>
+          <div class="hero__text-box">
+            <p class="hero__subtext">
+              In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .
+            </p>
+            <p class="hero__media-text">
+              In the current tech scenario, one can’t predict what device their user will use to interact with a product. 
+            </p>
+          </div>
+        </div>
+        <form class="hero__form" action="https://echo.htmlacademy.ru/" target="blank" method="post" autocomplete="off">
+          <label  class="hero__label">
+            <p class="hero__text">Ism Familiya</p> 
+            <input class="hero__input" type="text" name="User name and surname" placeholder="Ismingini kiriting" required>
+          </label>
+          <label  class="hero__label">
+            <p class="hero__text">Companiyani kiriting</p>
+            <input class="hero__input" type="text" name="User company name" placeholder="Companiya" required>
+          </label>
+          <label  class="hero__label">
+            <p class="hero__text">Telegram username</p>
+            <input class="hero__input" type="text" name="User Telegram Contact" placeholder="Username" required>
+          </label>
+          <label  class="hero__label">
+            <p class="hero__text">Phone number</p>
+            <input class="hero__input" type="tel" name="User phone number" value="+998 99">
+          </label>
+          
+          <label class="hero__label">
+            <p class="hero__text">
+              Sayni turini tanlang
+            </p>
+            <select class="hero__select" name="User select">
+              <option class="hero__option" value="Telegram">
+                Corparative sayt
+              </option>
+              <option class="hero__option" value="personal sayt">
+                personal sayt
+              </option>
+              <option class="hero__option" value="blog sayt">
+                blog sayt
+              </option>
+              <option class="hero__option" value="News sayt">
+                News sayt
+              </option>
+            </select>
+          </label>
+          
+          <label class="hero__label">
+            <p class="hero__text">
+              Sizga bo’glanish usulini tanlang
+            </p>
+            <select class="hero__select-social" name="User select" name="User select">
+              <option class="hero__option" value="Telegram">
+                Telegram
+              </option>
+              <option class="hero__option" value="Facebook">
+                Facebook
+              </option>
+              <option class="hero__option" value="Linkedn">
+                Linkedn
+              </option>
+              <option class="hero__option" value="Instagram">
+                Instagram
+              </option>
+            </select>
+          </label>
+          
+          <label class="hero__text-label">
+            <p class="hero__text">
+              Message
+            </p>
+            <textarea class="hero__textarea" cols="88" rows="10" name="User idea">    </textarea>
+          </label>
+          
+          <button class="hero__btn" type="submit">
+            Jo’natish
+          </button>
+          
+        </form>
+        
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<script src="./js/main.js"></script>
 </body>
 </html>
